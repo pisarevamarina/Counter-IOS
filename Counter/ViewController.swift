@@ -16,9 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
-
-
     @IBAction func increaseCounter(_ sender: UIButton) {
         counter += 1
         counterLabel.text = "Значение счётчика: \(counter)"
